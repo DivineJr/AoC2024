@@ -7,6 +7,7 @@ public class Day1 extends Day {
     public Day1(String fileLocation) throws Exception {
         super(fileLocation);
 
+        System.out.println("== Day 1 ==");
         interpretFile();
         part1();
         part2();
